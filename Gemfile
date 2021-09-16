@@ -28,5 +28,9 @@ group :test do
   gem 'webdrivers', '4.6.1'
 end
 
+group :production do
+  gem 'pg', '1.2.3'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '1.2021.1', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
